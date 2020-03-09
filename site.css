@@ -1,0 +1,37 @@
+body {
+    background-color: #eee;
+    padding-top:60px;
+}
+
+nav {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:60px;
+    background-color:#333;
+    color: #eee;
+    
+}
+
+nav li {
+    display:inline-block;
+    margin-right: 2rem;
+}
+
+nav li a {
+    color: #eee;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 1rem;
+}
+
+.wrapper {
+    margin: 2rem 4rem 4rem 4rem;
+    background-color: #eee;
+}
