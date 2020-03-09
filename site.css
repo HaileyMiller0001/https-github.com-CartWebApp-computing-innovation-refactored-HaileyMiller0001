@@ -1,6 +1,9 @@
 body {
-    background-color: #eee;
+    background-color:rgba(225, 234, 255, 0.329);
+    
     padding-top:60px;
+    text-shadow: #ffffff;
+    box-shadow: #2f2439a8
 }
 
 nav {
@@ -9,8 +12,8 @@ nav {
     left:0;
     right:0;
     height:60px;
-    background-color:#333;
-    color: #eee;
+    background-color:#ac9e9ea8;
+    color: rgba(100, 17, 17, 0.568);
     
 }
 
@@ -20,18 +23,36 @@ nav li {
 }
 
 nav li a {
-    color: #eee;
+    color:white;
 }
 
 h1 {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2;
+    color:rgba(102, 93, 87, 0.801);
+    
+    
 }
 
 p {
     margin: 1rem;
+    font-stretch: expanded;
+    font-size: 2.9ch;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(82, 47, 26, 0.801);    
 }
 
-.wrapper {
-    margin: 2rem 4rem 4rem 4rem;
-    background-color: #eee;
-}
+
+.page-wrapper {
+    padding: 2rem;  
+    background-color: rgb(211, 198, 198);
+    opacity: 0.5;
+    margin: 2rem;
+ }
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
